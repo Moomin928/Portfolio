@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Link to the external CSS file -->
+	<link rel="stylesheet" href="style.css" />
+	<!-- Preconnect to Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- Link to Google font 'Bebas Neue' -->
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<!-- Link to Boxicons for icon usage -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+<!-- Header Section with Logo, Navigation Menu, and Contact Button -->
+<header class="header">
+	<!-- Website Logo -->
+	<a href="#home" class="logo">
+		Tong <span>ShengKun</span>
+	</a>
+	<!-- Menu icon for responsive mobile view -->
+	<i class="bx bx-menu" id="menu-icon"></i>
+	<!-- Navigation Bar -->
+	<nav class="navbar">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#services">Services</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+	</nav>
+	<!-- Contact button -->
+	<button class="gradient-btn">Contact Me</button>
+</header>
+
+<!-- Home Section with a short introduction -->
+<section class="home" id="home">
+	<div class="home-content">
+		<!-- Main headline -->
+		<h1>Hi,It's<span>Tong</span></h1>
+		<!-- Subheadline with a profession tag -->
+		<h3>I'm a <span>Web Developer</span></h3>
+		<!-- Short description about yourself -->
+		<p>A Web Developer and Graphic Designer, studying at JONKOPING UNIVERSITY in Sweden. Very interested in programming and possess good communication skills.</p>
+		
+		<!-- Social icons for external profiles -->
+		<div class="social-icons">
+			<a href="https://github.com/Moomin928"><i class="bx bxl-github"></i></a>
+			<a href="https://www.linkedin.com/in/shengkun-tong-236946a0/"><i class="bx bxl-linkedin-square"></i></a>
+			<a href="https://www.instagram.com/to_ng0928/"><i class="bx bxl-instagram-alt"></i></a>
+			<a href="#"><i class="bx bxl-twitter"></i></a>
+		</div>
+		
+		<!-- Buttons for hiring or contacting -->
+		<div class="btn-group">
+			<a href="/Tong-Resume.pdf" class="btn">CV</a>
+			<a href="#contact" class="btn">Contact</a>
+		</div>	
+	</div>
+
+	<!-- Placeholder image for the home section -->
+	<div class="home-img">
+		<img src="image.JPG" alt="">
+	</div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+	<div class="about-img">
+		<img src="image.JPG" alt="">
+	</div>
+	<div class="about-content">
+		<!-- Section heading -->
+		<h2>About <span>Me</span></h2>
+		<!-- Detailed description about yourself -->
+		<p>I'm a person with a strong interest in programming, focused on creating software that people love to use creatively. I started my career with a passion for programming and design, which pushed me to keep learning and improving my skills. In my spare time, I love playing console games and working on algorithmic problems. I believe in the combination of creativity and technology to create endless possibilities.</p>
+		<!-- Button to expand about details -->
+		<a href="#" class="btn">Read More</a>
+	</div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+	<h2 class="heading">Services</h2>
+	<div class="services-container">
+		<!-- Service Box 1: UI/UX Design -->
+		<div class="services-box">
+			<div class="service-info">
+				<i class="bx bxl-figma"></i>
+				<h4>UI/UX Design</h4>
+				<p>Figma Design, Graphic Design</p>
+			</div>
+		</div>
+		<!-- Service Box 2: Frontend Development -->
+		<div class="services-box">
+			<div class="service-info">
+				<i class="bx bx-code"></i>
+				<h4>Frontend Development</h4>
+				<p>JavaScript, HTML, CSS, REACT, VUE, NODE JS</p>
+			</div>
+		</div>
+		<!-- Service Box 3: Backend Development -->
+		<div class="services-box">
+			<div class="service-info">
+				<i class="bx bx-code"></i>
+				<h4>Backend Development</h4>
+				<p>C++, Python</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects" id="projects">
+	<h2 class="heading">Projects</h2>
+	<div class="projects-box">
+		<!-- Project Card 1: Game Website -->
+		<div class="project-card">
+			<img src="/project1.png" alt="">
+			<h3>Game Website</h3>
+			<p>A website about a game built using JavaScript, HTML, and CSS.</p>
+			<div class="btn"><a href="https://ju-nmd2023.github.io/wuid-project-group-24/">Review Projects</a></div>
+		</div>
+		<!-- Project Card 2: Website Redesign -->
+		<div class="project-card">
+			<img src="/project2.png" alt="">
+			<h3>Redesign Website</h3>
+			<p>Redesigned the Ic4ds website based on research and user usability tests.</p>
+			<div class="btn">Review Projects</div>
+		</div>
+		<!-- Project Card 3: Food Delivery App -->
+		<div class="project-card">
+			<img src="/project4.png" alt="">
+			<h3>To do list </h3>
+			<p>A to do list website base in the JavaScript ,html and css .</p>
+			<div class="btn"><a href="https://ju-nmd2023.github.io/fop-todo-list-David/">Review Projects</a> </div>
+		</div>
+	</div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+	<h2 class="heading">Contact <span>Me</span></h2>
+	<!-- Contact form -->
+	<form action="#">
+		<div class="input-group">
+			<!-- Contact input boxes: Name, Email -->
+			<div class="input-box">
+				<input type="text" placeholder="Full Name">
+				<input type="text" placeholder="Email">
+			</div>
+			<!-- Contact input boxes: Phone, Subject -->
+			<div class="input-box">
+				<input type="number" placeholder="Phone Number">
+				<input type="text" placeholder="Subjects">
+			</div>
+		</div>
+		<div class="input-group-2">
+			<!-- Message input area -->
+			<textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+			<!-- Submit button -->
+			<input type="submit" value="Send Message" class="btn">
+		</div>
+	</form>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+	<!-- Social icons -->
+	<div class="social-icons">
+		<a href="#"><i class="bx bxl-github"></i></a>
+		<a href="#"><i class="bx bxl-linkedin-square"></i></a>
+		<a href="#"><i class="bx bxl-instagram-alt"></i></a>
+		<a href="#"><i class="bx bxl-twitter"></i></a>
+	</div>
+	<!-- Footer navigation list -->
+	<ul class="list">
+		<li><a href="#">FAQ</a></li>
+		<li><a href="#services">Services</a></li>
+		<li><a href="#about">About Me</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="contact">Contact</a></li>
+	</ul>
+	<!-- Copyright notice -->
+	<p class="copyright">@Tong | All Rights Reserved</p>
+</footer>
+
+<!-- Link to the external JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
